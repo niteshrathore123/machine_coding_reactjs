@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.product-card {
+  border: 1px solid grey;
+  padding: 10px 15px;
+}
+
+.product-card img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.pagination {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination button {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+.active {
+  background-color: blue;
+}
+.disable-button {
+  display: none;
+}
