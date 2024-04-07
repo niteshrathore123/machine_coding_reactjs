@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #888;
+}
